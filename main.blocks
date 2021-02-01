@@ -1,0 +1,79 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="8fLw#DZ@W$TK@kYI|o5~">Bird</variable><variable type="KIND_SpriteKind" id="l?y~JX1jm1JngA[^ji8z">Player</variable><variable type="KIND_SpriteKind" id="WUOUdjXx5b_7;WOh0(a+">Projectile</variable><variable type="KIND_SpriteKind" id="0pL!+Oen+URhz(Emzh[h">Food</variable><variable type="KIND_SpriteKind" id="ycwc]mRsr!./BMWl|~JA">Enemy</variable></variables><block type="pxt-on-start" id=")/D^6lJQ:`0#wn%};1+Z" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="Iq36`beO(1@qD[Je}dBU"><field name="VAR" id="8fLw#DZ@W$TK@kYI|o5~">Bird</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="HX+z/xAiTD7Nz+)S~OHd"><value name="img"><shadow type="screen_image_picker" id="3AxPkl%9}g%1R5q9Tjs7"><field name="img">assets.image`Bird`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="7QEB#;+Pyd314=vEbf9w"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundcolor" id="W;E}?=V}f4g%u4;tb)fs"><value name="color"><shadow type="colorindexpicker" id="azD?3Z|mBFe/Lzcqfdm%"><field name="index">7</field></shadow></value></block></next></block></statement></block><block type="keyonevent" id="PtZ3]]au6uZUl%8IP]97" x="330" y="190"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="run_image_animation" id="Lm_mjdrva@vrDBIGC.r)"><value name="sprite"><block type="variables_get" id="viwR@U*uAqbl1Sk#W0pz"><field name="VAR" id="8fLw#DZ@W$TK@kYI|o5~">Bird</field></block></value><value name="frames"><block type="animation_editor" id="H@zP#tkL|2=iEv/fFJ*("><field name="frames">[img`
+. . . . . . 6 6 6 6 6 6 . . . . . 
+. . . . 6 6 2 2 2 6 1 1 6 . . . . 
+. . . 6 2 2 3 3 6 1 1 1 1 6 . . . 
+. 6 6 6 6 3 3 3 6 2 1 1 6 1 6 . . 
+6 2 2 2 2 6 3 3 6 2 1 1 6 1 6 . . 
+6 2 2 2 2 2 6 3 3 6 2 1 1 1 6 . . 
+6 3 2 2 2 3 6 3 3 3 6 6 6 6 6 6 . 
+. 6 3 3 3 6 3 3 3 6 5 5 5 5 5 5 6 
+. . 6 6 6 4 4 4 6 5 6 6 6 6 6 6 . 
+. . 6 4 4 4 4 4 4 6 5 5 5 5 5 6 . 
+. . . 6 6 4 4 4 4 4 6 6 6 6 6 . . 
+. . . . . 6 6 6 6 6 . . . . . . . 
+`,img`
+. . . . . . 6 6 6 6 6 6 . . . . . 
+. . . . 6 6 2 2 2 6 1 1 6 . . . . 
+. . . 6 2 2 3 3 6 1 1 1 1 6 . . . 
+. . 6 2 3 3 3 3 6 2 1 1 6 1 6 . . 
+. 6 3 3 3 3 3 3 6 2 1 1 6 1 6 . . 
+. 6 6 6 6 6 3 3 3 6 2 1 1 1 6 . . 
+6 2 2 2 2 2 6 3 3 3 6 6 6 6 6 6 . 
+6 3 3 3 3 3 6 3 3 6 5 5 5 5 5 5 6 
+. 6 6 6 6 6 4 4 6 5 6 6 6 6 6 6 . 
+. . 6 4 4 4 4 4 4 6 5 5 5 5 5 6 . 
+. . . 6 6 4 4 4 4 4 6 6 6 6 6 . . 
+. . . . . 6 6 6 6 6 . . . . . . . 
+`,img`
+. . . . . . 6 6 6 6 6 6 . . . . . 
+. . . . 6 6 2 2 2 6 1 1 6 . . . . 
+. . . 6 2 2 3 3 6 1 1 1 1 6 . . . 
+. . 6 2 3 3 3 3 6 2 1 1 6 1 6 . . 
+. 6 3 3 3 3 3 3 6 2 1 1 6 1 6 . . 
+. 6 3 3 3 3 3 3 3 6 2 1 1 1 6 . . 
+. 6 6 6 6 6 3 3 3 3 6 6 6 6 6 6 . 
+6 2 2 2 2 2 6 3 3 6 5 5 5 5 5 5 6 
+6 2 2 2 3 6 4 4 6 5 6 6 6 6 6 6 . 
+6 3 3 3 6 4 4 4 4 6 5 5 5 5 5 6 . 
+. 6 6 6 6 4 4 4 4 4 6 6 6 6 6 . . 
+. . . . . 6 6 6 6 6 . . . . . . . 
+`,img`
+. . . . . . 6 6 6 6 6 6 . . . . . 
+. . . . 6 6 2 2 2 6 1 1 6 . . . . 
+. . . 6 2 2 3 3 6 1 1 1 1 6 . . . 
+. . 6 2 3 3 3 3 6 2 1 1 6 1 6 . . 
+. 6 3 3 3 3 3 3 6 2 1 1 6 1 6 . . 
+. 6 3 3 3 3 3 3 3 6 2 1 1 1 6 . . 
+. 6 6 6 6 6 3 3 3 3 6 6 6 6 6 6 . 
+6 2 2 2 2 2 6 3 3 6 5 5 5 5 5 5 6 
+6 2 2 2 3 6 4 4 6 5 6 6 6 6 6 6 . 
+6 3 3 3 6 4 4 4 4 6 5 5 5 5 5 6 . 
+. 6 6 6 6 4 4 4 4 4 6 6 6 6 6 . . 
+. . . . . 6 6 6 6 6 . . . . . . . 
+`,img`
+. . . . . . 6 6 6 6 6 6 . . . . . 
+. . . . 6 6 2 2 2 6 1 1 6 . . . . 
+. . . 6 2 2 3 3 6 1 1 1 1 6 . . . 
+. . 6 2 3 3 3 3 6 2 1 1 6 1 6 . . 
+. 6 3 3 3 3 3 3 6 2 1 1 6 1 6 . . 
+. 6 6 6 6 6 3 3 3 6 2 1 1 1 6 . . 
+6 2 2 2 2 2 6 3 3 3 6 6 6 6 6 6 . 
+6 3 3 3 3 3 6 3 3 6 5 5 5 5 5 5 6 
+. 6 6 6 6 6 4 4 6 5 6 6 6 6 6 6 . 
+. . 6 4 4 4 4 4 4 6 5 5 5 5 5 6 . 
+. . . 6 6 4 4 4 4 4 6 6 6 6 6 . . 
+. . . . . 6 6 6 6 6 . . . . . . . 
+`,img`
+. . . . . . 6 6 6 6 6 6 . . . . . 
+. . . . 6 6 2 2 2 6 1 1 6 . . . . 
+. . . 6 2 2 3 3 6 1 1 1 1 6 . . . 
+. 6 6 6 6 3 3 3 6 2 1 1 6 1 6 . . 
+6 2 2 2 2 6 3 3 6 2 1 1 6 1 6 . . 
+6 2 2 2 2 2 6 3 3 6 2 1 1 1 6 . . 
+6 3 2 2 2 3 6 3 3 3 6 6 6 6 6 6 . 
+. 6 3 3 3 6 3 3 3 6 5 5 5 5 5 5 6 
+. . 6 6 6 4 4 4 6 5 6 6 6 6 6 6 . 
+. . 6 4 4 4 4 4 4 6 5 5 5 5 5 6 . 
+. . . 6 6 4 4 4 4 4 6 6 6 6 6 . . 
+. . . . . 6 6 6 6 6 . . . . . . . 
+`]</field><data>{"commentRefs":[],"fieldData":{"frames":"myAnimations.anim2"}}</data></block></value><value name="frameInterval"><shadow type="timePicker" id="r}It`zFCI=vu20hXqLnw"><field name="ms">70</field></shadow></value><value name="loop"><shadow type="toggleOnOff" id="qt(SQv({.M=#[{oJ^7p."><field name="on">false</field></shadow></value></block></statement></block></xml>
