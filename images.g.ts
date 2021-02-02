@@ -43,6 +43,46 @@ namespace myImages {
             case "pipe":return img`
 6 8 8 8 9 8 9 8 9 9 9 9 9 a 9 a 9 a a a 6 
 `;
+            case "image7":
+            case "1":return img`
+. 1 6 . 
+1 1 6 . 
+. 1 6 . 
+. 1 6 . 
+1 1 1 6 
+`;
+            case "image8":
+            case "2":return img`
+1 1 6 . 
+. . 1 6 
+. 1 6 . 
+1 6 . . 
+1 1 1 6 
+`;
+            case "image10":
+            case "4":return img`
+1 6 1 6 
+1 6 1 6 
+1 1 1 6 
+. . 1 6 
+. . 1 6 
+`;
+            case "image12":
+            case "5":return img`
+1 1 1 6 
+1 6 . . 
+. 1 6 . 
+. . 1 6 
+1 1 6 . 
+`;
+            case "image9":
+            case "3":return img`
+1 1 1 6 
+. . 1 6 
+1 1 6 . 
+. . 1 6 
+1 1 6 . 
+`;
             case "image6":
             case "Background":return img`
 ................................................................................................................................................................................................................................................................................................................................
@@ -165,6 +205,31 @@ bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+`;
+            case "image11":
+            case "Blank":return img`
+. 
+`;
+            case "image13":
+            case "Frame":return img`
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 a a a a a a a a a a a a a 6 
+6 a 9 9 9 9 9 9 9 9 9 9 9 a 6 
+6 a 9 8 8 8 8 8 8 8 8 8 9 a 6 
+6 a 9 8 8 8 8 8 8 8 8 8 9 a 6 
+6 a 9 8 8 8 8 8 8 8 8 8 9 a 6 
+6 a 9 8 8 8 8 8 8 8 8 8 9 a 6 
+6 a 9 8 8 8 8 8 8 8 8 8 9 a 6 
+6 a 9 8 8 8 8 8 8 8 8 8 9 a 6 
+6 a 9 8 8 8 8 8 8 8 8 8 9 a 6 
+6 a 9 8 8 8 8 8 8 8 8 8 9 a 6 
+6 a 9 8 8 8 8 8 8 8 8 8 9 a 6 
+6 a 9 9 9 9 9 9 9 9 9 9 9 a 6 
+6 a a a a a a a a a a a a a 6 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+`;
+            case "image14":return img`
+f a e 
 `;
         }
         return null;
