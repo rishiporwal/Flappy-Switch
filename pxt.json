@@ -1,8 +1,9 @@
 {
-    "name": "FlappyGlitch",
+    "name": "Flappy Switch",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.1.0"
     },
     "files": [
         "main.blocks",
@@ -37,7 +38,7 @@
         "#45F133",
         "#1BD907",
         "#17AE07",
-        "#494949",
+        "#08BAAF",
         "#373737",
         "#242424",
         "#121212",
